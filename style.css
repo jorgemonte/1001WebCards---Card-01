@@ -159,7 +159,6 @@ text-shadow:
 	background-color:gold;
 }
 
-
 .pink-bg{
 	background-color:#F2385A;
 }
@@ -167,7 +166,6 @@ text-shadow:
 .pink-txt{
 	color:#F2385A;
 }
-
 
 .light-blue-bg{
 	background-color:#4AD9D9;
@@ -216,14 +214,20 @@ text-shadow:
 /****** PRODUCTS SECTION ******/
 
 .cards-parent{
-	justify-content: space-between;
+	justify-content: center;
 	margin-bottom: 50px;
+	flex-wrap:wrap;
 }
 
 .product-card{
-	width: 30%;
+	width:30%;
+	max-width: 368px;
+	min-width:318px;
 	align-content: space-between;
 	border-radius: 10px;
+	position: relative;
+	z-index:10;
+	margin: 0 20px 20px 20px;
 }
 
 #product-card-1{
@@ -241,7 +245,7 @@ text-shadow:
 .product-img{
 	background-size: cover;
 	background-position: center center;
-	height: 170px;
+	height: 230px;
 	border-radius: 10px 10px 0 0;
 }
 
